@@ -1,0 +1,325 @@
+/*style the video*/
+video#bgvideo {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    z-index: -100;
+}
+
+/*style the brand*/
+#brand {
+    margin-left: -300px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+/*push navbar items to right*/
+#navbarCollapse #listnav {
+    margin-right: -330px;
+
+
+}
+
+/*style alert message*/
+.container h2 {
+    color: rgb(246, 209, 75);
+}
+
+.container h4 {
+    color: rgb(246, 209, 75);
+}
+
+.container h2:hover {
+    color: rgba(246, 209, 75, 0.5);
+}
+
+
+/*style communication state */
+
+.jumbotron {
+    background-color: transparent;
+    padding-top: 200px;
+
+}
+
+.container p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.container p strong {}
+
+.container p h1 {
+    color: rgb(253, 53, 13);
+}
+
+/*style each of the grids (or jumbotrons)*/
+#casesHeader {
+    text-align: center;
+    color: rgb(98, 15, 15);
+    font-weight: bold;
+
+}
+
+#recensed {
+    background-color: rgba(247, 181, 15, 0.5);
+    border-radius: 10px;
+
+}
+
+#recensed h3 {
+    color: rgb(247, 181, 15);
+    font-size: 30px;
+
+}
+
+#recensed p {
+    color: rgb(247, 181, 15);
+    font-size: 30px;
+
+}
+
+#cured {
+    background-color: rgba(23, 247, 15, 0.5);
+    border-radius: 10px;
+
+}
+
+#cured h3 {
+    color: rgb(23, 247, 15);
+    font-size: 30px;
+
+}
+
+#cured p {
+    color: rgb(23, 247, 15);
+    font-size: 30px;
+
+}
+
+#death {
+    background-color: rgba(18, 19, 18, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+#death h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#death p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+#treating {
+    background-color: rgba(255, 14, 14, 0.5);
+    border-radius: 10px;
+}
+
+#treating h3 {
+    color: rgb(255, 14, 14);
+    font-size: 30px;
+}
+
+#treating p {
+    color: rgb(255, 14, 14);
+    font-size: 30px;
+
+}
+
+/*style the footer*/
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    color: darkslategrey;
+    font-size: 18px;
+
+
+}
+
+/*style button dismute*/
+#dismute {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-left: 350px;
+
+}
+
+
+/*style for various sizes*/
+
+
+/*style the navbar with generated code*/
+.navbar-custom {
+    font-size: 18px;
+    background-color: #1b3759;
+    border-color: #132740;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#274f80), to(#1b3759));
+    background-image: -webkit-linear-gradient(top, #274f80, 0%, #1b3759, 100%);
+    background-image: -moz-linear-gradient(top, #274f80 0%, #1b3759 100%);
+    background-image: linear-gradient(to bottom, #274f80 0%, #1b3759 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff274f80', endColorstr='#ff1b3759', GradientType=0);
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-text {
+    color: #c0c0c0;
+}
+
+.navbar-custom .navbar-nav > li:last-child > a {
+    border-right: 1px solid #132740;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #c0c0c0;
+    border-left: 1px solid #132740;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #132740;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#132740), to(#1f3f67));
+    background-image: -webkit-linear-gradient(top, #132740, 0%, #1f3f67, 100%);
+    background-image: -moz-linear-gradient(top, #132740 0%, #1f3f67 100%);
+    background-image: linear-gradient(to bottom, #132740 0%, #1f3f67 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff132740', endColorstr='#ff1f3f67', GradientType=0);
+}
+
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+    border-color: #dddddd;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #dddddd;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #cccccc;
+}
+
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+    border-color: #13263e;
+}
+
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    background-color: #132740;
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: #c0c0c0;
+    border-bottom-color: #c0c0c0;
+}
+
+@media (max-width: 767) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #c0c0c0;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+        background-color: transparent;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #132740;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #cccccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-custom .navbar-link {
+    color: #c0c0c0;
+}
+
+.navbar-custom .navbar-link:hover {
+    color: #ffffff;
+}
+
+/*style test jumbotron*/
+#testJumb {
+    display: none;
+    background: transparent;
+
+}
+
+/*style form group*/
+label {
+    font-size: 18px;
+
+}
+
+/*style results blocks */
+
+#positive {
+    display: none;
+    font-size: 30px;
+    background-color: firebrick;
+    border-radius: 10px;
+}
+
+#negative {
+    display: none;
+    font-size: 30px;
+    background-color: forestgreen;
+    border-radius: 10px;
+
+}
+
